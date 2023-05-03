@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0 20%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+nav > img{
+    width: 20px;
+    height:30px;
+}
+nav > h1{
+    font-weight: 200;
+    color: rgb(77, 77, 74);
+}
+/* First Order */
+.inspiration-container{
+    margin: 4vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inspiration-container>img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+
+}
+.inspiration-container>img:hover{
+    width: 8.5vw;
+    height: 8.5vw;
+}
+/* Food Items */
+.item-container{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.item-container >div > img{
+    width: 15vw;
+}
+.item-container>div{
+    width: 22%;
+}
+.item-container>div>h1{
+    font-weight: 200;
+    color: rgb(63, 60, 60);
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Pagination */
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+    margin-bottom: 40px;
+}
+.pagination-container >a{
+    padding: 5px 10px;
+    height: 20px;
+    border: 1px solid darkgray;
+    color: black;
+    text-decoration: none;
+}
+a.active,a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+footer{
+    display: none;
+ }
+
+

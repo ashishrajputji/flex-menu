@@ -1,0 +1,91 @@
+body{
+    padding: 0px 0px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 2vw;
+}
+nav >img{
+    width: 18px;
+    height: 20px;
+}
+nav > h1{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: rgb(77, 77, 74);
+}
+/* First Order */
+.inspiration-container{
+    margin: 4vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inspiration-container>img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+
+}
+.inspiration-container>img:hover{
+    width: 18.5vw;
+    height: 18.5vw;
+}
+
+/* item-container */
+.item-container{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 0 10vw;
+    text-align: center;
+}
+.item-container >div > img{
+    width: 80vw;
+}
+.item-container>div>h1{
+    font-weight: 200;
+    color: rgb(63, 60, 60);
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+}
+/* Pagination */
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 2px;
+    margin-bottom: 40px;
+}
+.pagination-container >a{
+    padding: 5px 10px;
+    height: 20px;
+    border: 1px solid darkgray;
+    color: black;
+    text-decoration: none;
+}
+a.active,a:hover{
+    background-color: black;
+    color: white;
+}
+/* Footer */
+footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 102, 102);
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
